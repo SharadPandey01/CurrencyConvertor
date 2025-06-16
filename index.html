@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency convertor</title>
+    <link rel="stylesheet" href="../css/convertor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+   <div class=" head-banner"> <em>CURRENCY CONVERTOR</em> </div>
+    <div class="mainbox">
+        
+        <div class="row1">
+            <div class="row1element">From</div>
+            <div class="row1element">To</div>
+        </div>
+
+        <div class="row2">
+
+            <div class="country1">
+                <div class="elements">
+                <div class="flag1"><img id="flagA" src="https://flagsapi.com/US/flat/64.png" alt="countryfalg1" style="height:100%; width:100% ;"></div>
+                <select class="dropdowns dropdownA">
+                </select>
+                </div>
+            </div>
+            
+            <button class="exchangebtn" title="Convert"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            
+            <div class="country2">
+                <div class="elements">
+                <div class="flag2"><img id="flagB"  src="https://flagsapi.com/IN/flat/64.png" alt="countryflag2" style="height:100%; width:100% ;"></div>
+                <select class="dropdowns dropdownB">
+                </select>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row3">
+            <div class="headText">Enter Amount</div>
+            <div class="headText">Converted Amount</div>
+        </div>
+
+        <div class="row4">
+            <input type="number" placeholder="Enter amount" title="Enter amount" id="amount">
+            <input type="number" placeholder="converted amount" title="Converted Amount" id="result">
+        </div>
+        
+        <button type="submit" class="convert" title="convert">Convert</button>
+
+    </div>
+
+    <div class="exitText"><p>Made with Love by <strong>SHARAD PANDEY</strong></p></div>
+    <script src="../javascript/countrycode.js"></script>
+    <script src="../javascript/converter.js"></script>
+</body>
+</html>
